@@ -1,0 +1,13 @@
+header {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center-align the content */
+}
+
+h1 {
+    margin: 0; /* Remove default margins */
+    font-size: 32px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    text-transform: uppercase; /* Uppercase text */
+}

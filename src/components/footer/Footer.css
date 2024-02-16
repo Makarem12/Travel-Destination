@@ -1,0 +1,20 @@
+footer {
+    text-align: center;
+    background-color:#333;;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+footer p, .social-media {
+    display: inline-block;
+}
+
+.social-link {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}

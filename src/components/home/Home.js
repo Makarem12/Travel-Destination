@@ -4,12 +4,9 @@ import FooterComp from "../footer/Footer";
 
 const destinationData=require('../../data/db.json')
 function HomeComp(){
-    // console.log(destinationData[0])
     return(
         <>
         <HeaderComp/>
-          
-          {/* <ToursComp destinationName={destinationData[0].name} destinationImage={destinationData[0].image}/> */}
           {
             destinationData.map(element=>{
                 return(

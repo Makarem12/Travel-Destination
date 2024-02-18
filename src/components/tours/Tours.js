@@ -1,5 +1,5 @@
+import './Tours.css';
 function ToursComp(props){
-    console.log(11111,props)
     return(
         <>
         <div>

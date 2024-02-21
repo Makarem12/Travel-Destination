@@ -1,12 +1,21 @@
 import './Tours.css';
-function ToursComp(props){
+import Tour from './tour/Tour';
+const destinationData=require('../../data/db.json')
+function Tours(){
     return(
-        <>
-        <div>
-            <p>{props.destinationName}</p>
-            <img src={props.destinationImage} alt="destination image"/>
+        <div style={   { display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center'}
+        }>
+        {
+            destinationData.map((element,index)=>{
+                return(
+                    <div key={element.id}> <Tour tour={element} /></div>
+                   
+                )
+            })
+          }
         </div>
-        </>
     )
 }
-export default ToursComp;
+export default Tours;
